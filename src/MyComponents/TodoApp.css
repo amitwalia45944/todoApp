@@ -1,0 +1,63 @@
+.no-bullet-point {
+    list-style-type: none;
+}
+
+.form-element {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+    height: 100vh;
+}
+
+body {
+  overflow: hidden;
+}
+
+button {
+    padding: 0.5rem;
+    border-radius: 2rem;
+    background-color: bisque;
+}
+
+input {
+    transition: width 0.4s ease-in-out;
+    width: 50%;
+    padding: 1rem;
+    border-radius: 2rem;
+    
+  }
+
+  button {
+    margin: 5px;
+    padding: 8px 16px;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+
+  h1 {
+    color: red;
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+  .dark-theme {
+    background-color: #333333;
+    color: white;
+  }
+
+  .light-theme {
+    background-color: white;
+    color: black;
+  }
+
+  header {
+    display: flex;
+    justify-content: end;
+  }
+
+  
+  
+
